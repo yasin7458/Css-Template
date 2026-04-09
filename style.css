@@ -1,0 +1,138 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f1f1f1;
+  margin: 0;
+  line-height: 20px;
+}
+
+.container {
+  display: flex;
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+  gap: 20px;
+  position: relative;
+}
+
+.man1{
+    position:absolute;
+    top:240px;
+}
+.main img{
+    width: 100%;
+}
+
+.left-column {
+  flex:60%;
+}
+
+.left-column i{
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+.profile-card {
+  background: white;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.profile-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.title {
+  color: grey;
+  font-size: 14px;
+}
+.skills{
+    margin-bottom: -30px;
+}
+
+.skills, .languages {
+  background: white;
+  padding: 20px;
+  margin-top: 1px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.skills h3, .languages h3 {
+  margin-top: 0;
+}
+
+.bar {
+  background: #ddd;
+  border-radius: 25px;
+  margin-bottom: 10px;
+}
+
+.bar div {
+  background: #009688;
+  height: 12px;
+  border-radius: 25px;
+}
+
+.right-column {
+  flex: 100%;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.card i{
+    font-size: 25px;
+    padding: 0px 10px;
+}
+
+.card h2 {
+  color: #009688;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.job, .edu {
+  margin-top: 20px;
+}
+
+.date {
+  color: #009688;
+  font-size: 14px;
+}
+
+.footer {
+  background-color: #009688;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer-text {
+  margin: 0;
+  font-size: 16px;
+}
+
+.social-icons {
+  margin: 10px 0;
+}
+
+.social-icons a {
+  color: white;
+  margin: 0 8px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+
+.powered-text {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.powered-text a {
+  color: white;
+  text-decoration: underline;
+}
